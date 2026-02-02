@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.display{
+  width: 99%;
+  background-color:rgb(49, 49, 95);
+  border: white;
+  text-align: center;
+  border-radius: 1rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.container{
+  border-radius: 1rem;
+  margin-top: 3rem;
+  background-color: rgb(49, 49, 95);
+  min-height: 500px;
+  min-height: 300px;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 40px;
+
+}
+button{
+  background: rgb(94, 59, 129);
+  font-size: 2rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.equal{
+  grid-column: span 2;
+}
